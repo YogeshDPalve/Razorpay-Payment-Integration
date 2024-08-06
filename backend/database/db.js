@@ -8,6 +8,8 @@ const connectToMongo = async () => {
         console.log("---***Database Connected Successfully***---")
     } catch (error) {
         console.log(error);
+        console.log("Database connection error");
+        
     }
 }
 
