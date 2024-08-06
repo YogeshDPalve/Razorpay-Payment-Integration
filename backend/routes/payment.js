@@ -21,7 +21,7 @@ router.post('/order', (req, res) => {
             currency: "INR",
             receipt: crypto.randomBytes(10).toString("hex"),
         }
-        
+
         razorpayInstance.orders.create(options, (error, order) => {
             if (error) {
                 console.log(error);
@@ -71,6 +71,7 @@ router.post('/verify', async (req, res) => {
             res.json({
                 message: "Payement Successfully"
             });
+            console.log("Payment Successfull and added in Database");
         }
     } catch (error) {
         res.status(500).json({ message: "Internal Server Error!" });
