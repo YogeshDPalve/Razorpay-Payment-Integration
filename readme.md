@@ -1,5 +1,9 @@
 # Razorpay Payment Integration
 
+![Front page](https://github.com/YogeshDPalve/Razorpay-Payment-Integration/blob/main/first%20page.png)
+![Payment Initialization](https://github.com/YogeshDPalve/Razorpay-Payment-Integration/blob/main/Payment%20Initialization.png)
+![Payment successfull](https://github.com/YogeshDPalve/Razorpay-Payment-Integration/blob/main/Payment%20Successfull.png)
+
 This project demonstrates the integration of the Razorpay payment gateway with a React frontend and a Node.js backend.
 
 ## Features
